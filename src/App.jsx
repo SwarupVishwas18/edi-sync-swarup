@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className='main-arena'>
         <Sidebar />
         <Main />
       </main>

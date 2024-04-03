@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --bg-col : #F0F6FF;
+    --white : #FFFFFF;
+    --title-col : #0B3051;
+    --link-col : #5D7285;
+}
+
+*{
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+body{
+    background-color: var(--bg-col);
+}
+
+.title{
+    color: var(--title-col);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    background-color: var(--white);
+}
+
+.account-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+}
+
+.account-data{
+    text-align: right;
+}
+
+.grey-text{
+    color: var(--link-col);
+    font-size: .9rem;
+}
+
+.sidebar{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    min-height: 85vh;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: var(--link-col);
+}
+
+.sidebar .active{
+    font-weight: 700;
+}
+
+main.main-arena{
+    display: flex;
+}

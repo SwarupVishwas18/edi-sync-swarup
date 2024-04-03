@@ -1,8 +1,10 @@
+
+
 function Header() {
     return (
         <nav>
             <div className="logo-container">
-                <h1 className="logo">
+                <h1 className="logo title">
                     EDISync
                 </h1>
             </div>
@@ -12,7 +14,7 @@ function Header() {
                     <div className="account-loc grey-text">Pune, India</div>
                 </div>
                 <div className="account-img">
-                    <img src="" alt="" />
+                    <img src="" alt="" width="60px" height="60px" />
                 </div>
             </div>
         </nav>
