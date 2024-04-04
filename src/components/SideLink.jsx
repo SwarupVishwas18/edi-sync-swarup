@@ -14,7 +14,7 @@ function SideLink({ img_src, link_text, isActive }) {
 
     return (
         <div className="side-link">
-            <div className="side-img"><img src={img_src} alt="" /></div>
+            <div className="sidebar-img"><img src={img_src} alt="" /></div>
             {linkText}
 
         </div>
