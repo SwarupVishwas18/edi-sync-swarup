@@ -72,3 +72,9 @@ button{
     bottom: 0;
     right: 0;
 }
+
+.oops-img{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
