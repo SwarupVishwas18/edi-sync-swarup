@@ -1,8 +1,7 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import Header from './components/Header'
-import Sidebar from './components/Sidebar'
-import Main from './components/Main'
+import Dashboard from './components/Dashboard'
+import MainArena from './MainArena'
 
 
 function App() {
@@ -11,16 +10,11 @@ function App() {
     <>
       <Routes>
         <Route path='/login' element={<h1>Login</h1>}></Route>
+        <Route path='/' element={<MainArena element={<Dashboard />} />} />
+        <Route path='/profile' element={<MainArena element={<h1>Profile</h1>} />} />
       </Routes>
-      <Header />
 
-      <main className='main-arena'>
-        <Sidebar />
-        <Routes>
-          <Route path='/' element={<Main />} />
-          <Route path='/profile' element={<h1>Profile</h1>} />
-        </Routes >
-      </main>
+
     </>
   )
 }

@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard"
 import Member from "./Member"
 import { PieChart } from "@mui/x-charts"
-function Main() {
+function Dashboard() {
     return (
         <div className="dashboard">
             <h1>
@@ -50,4 +50,4 @@ function Main() {
     )
 }
 
-export default Main
+export default Dashboard
