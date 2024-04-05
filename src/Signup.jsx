@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './assets/css/login.css'
 import bulb from './assets/img/bulb.png'
 import rect from './assets/img/Rectangle-login.svg'
-function Login() {
+function Signup() {
     return (
         <div className="login">
             <div className="bulb-img">
@@ -11,7 +11,7 @@ function Login() {
             </div>
 
             <div className="login-container">
-                <h1 className="title" style={{ fontSize: "4rem" }}>LOGIN</h1>
+                <h1 className="title" style={{ fontSize: "4rem" }}>Signup</h1>
                 <form action="">
                     <div className="input">
                         <input type="text" id='username' placeholder='Username' />
@@ -37,4 +37,4 @@ function Login() {
     )
 }
 
-export default Login
+export default Signup

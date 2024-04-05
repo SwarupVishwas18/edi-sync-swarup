@@ -27,9 +27,6 @@ body{
     gap: 2rem;
 }
 
-h1.title{
-    font-size: 4rem;
-}
 
 input{
     width: 400px;
