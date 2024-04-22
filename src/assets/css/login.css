@@ -18,7 +18,7 @@ body{
     gap: 5rem;
 }
 
-.login-container{
+.login-container, .signup-container{
     height: 100%;
     display: flex;
     width: 100%;
@@ -27,8 +27,13 @@ body{
     gap: 2rem;
 }
 
+.signup-container{
+    padding-top: 15vh;
+}
 
-input{
+
+
+input, select{
     width: 400px;
     padding: 1rem;
     font-size: 1rem;
@@ -37,7 +42,11 @@ input{
     background-color: transparent;
 }
 
-input:focus{
+select{
+    width: 430px;
+}
+
+input:focus, select:focus{
     outline: none;
 }
 

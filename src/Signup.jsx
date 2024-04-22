@@ -10,14 +10,29 @@ function Signup() {
 
             </div>
 
-            <div className="login-container">
+            <div className="signup-container">
                 <h1 className="title" style={{ fontSize: "4rem" }}>Signup</h1>
                 <form action="">
                     <div className="input">
                         <input type="text" id='username' placeholder='Username' />
                     </div>
                     <div className="input">
+                        <input type="text" id='username' placeholder='PRN Number' />
+                    </div>
+                    <div className="input">
                         <input type="text" id='username' placeholder='Password' />
+                    </div>
+
+                    <div className="input">
+                        <select name="" id="">
+                            <option value="0">Type</option>
+                            <option value="0">Student</option>
+                            <option value="0">Guide</option>
+                        </select>
+                    </div>
+
+                    <div className="input">
+                        <input type="text" id='username' placeholder='Team Name' />
                     </div>
 
                     <div className="input">
@@ -25,7 +40,7 @@ function Signup() {
                     </div>
 
                     <div>
-                        New Here? <Link className='link' to='/signup'>Signup</Link>
+                        Already Here? <Link className='link' to='/login'>Login</Link>
                     </div>
                 </form>
             </div>

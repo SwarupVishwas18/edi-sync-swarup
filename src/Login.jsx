@@ -25,7 +25,7 @@ function Login() {
                     </div>
 
                     <div>
-                        New Here? <Link className='link' to='/signup'>Signup</Link>
+                        New Here? <Link className='link' to='/login'>Signup</Link>
                     </div>
                 </form>
             </div>
